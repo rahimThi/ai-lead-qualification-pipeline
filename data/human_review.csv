@@ -1,0 +1,51 @@
+company_id,human_fit_score,reviewer_note
+1,5,"Right size, Excel tours and paper delivery notes, new depot is a clear trigger."
+2,4,"Good size and industry, ERP from 2004 is outdated, capacity growth trigger; maturity only medium."
+3,5,Paper quality binders plus retail demand for digital traceability = clear pressure.
+4,5,"Fax/email orders typed in manually, new managing director is a classic trigger."
+5,5,"Manual monthly stock reconciliation, rising stock-outs, already looking for a system."
+6,5,Paper pick lists caused a lost client; actively reviewing processes.
+7,4,"No central machine data, customer pressure on lead times; maturity signal narrower."
+8,5,"Whiteboard scheduling, new hall in 2027 and skills shortage."
+9,5,"Paper temperature logs, new EU rules force digitisation; size fits."
+10,5,"Disconnected systems, energy cost pressure, wants cost transparency."
+11,5,"Spreadsheet recipes, acquisition requires merging two sites."
+12,4,"Data exists but unused (medium maturity), budget already set for 2027."
+13,4,"No portal, status by phone, customers ask for tracking; trigger is soft."
+14,4,"Excel shift planning for 950 staff, EV transition changes volumes."
+15,5,"Phone and paper orders, new owner wants to modernise."
+16,4,"Manual pricing per order, volatile prices create urgency for fast quotes."
+17,5,Planning knowledge sits with two planners about to retire.
+18,4,Fragile self-built system and growth; risk rather than paper processes.
+19,2,"Stable, SAP in place, no trigger announced."
+20,2,"Below 100 employees, standard TMS already used, limited budget."
+21,2,Partly digitised and no trigger; major criterion missing.
+22,3,"New filling line, but sales and logistics manual; no trigger."
+23,3,"Modern ERP but low adoption; needs help, unclear urgency."
+24,3,"Online shop exists, warehouse manual, no trigger; mixed."
+25,2,"Cost cutting instead of new projects, combustion dependency."
+26,4,"Tender win +20% volume is a strong trigger; systems mixed, not clearly low."
+27,2,"Strong validated systems, no concrete plans."
+28,2,"Low maturity but owner sceptical of consultants, small team."
+29,3,"Own digital team, operations side not yet covered; mixed."
+30,3,"Modern WMS, manual billing, expansion only in 2028."
+31,2,"Production automated, no trigger announced."
+32,3,"Legacy payment system, board discusses modernisation but slow decisions."
+33,1,Digital platform with 60 developers; already mature.
+34,1,"14 employees, no change planned."
+35,1,Large listed company with S/4HANA and own data science.
+36,1,Far too small.
+37,1,Insolvency; no ability to buy.
+38,1,Large group with own transformation unit.
+39,1,"Too small, minimal administration."
+40,1,"Software distributor, highly digitised."
+41,1,External projects frozen for 2026.
+42,1,"35 employees, too small."
+43,1,"Fully automated, already mature."
+44,1,ERP and MES just implemented.
+45,3,"Strong need across sites, but 4,200 staff is above our size range."
+46,4,'Digital pioneer' is marketing only; paper map planning. No trigger.
+47,5,"Paper documentation under strict regulation, audit gaps found in 2025."
+48,4,'AI' is a one-customer pilot; manual tour planning otherwise. No trigger.
+49,1,Sale in progress; disqualifier despite strong need.
+50,4,Handwritten pick lists with rising errors; customer side already digital.
