@@ -16,12 +16,12 @@ Azure SQL: company list
    → results saved to Azure SQL
    → AI step 2, only for scores 4–5: draft a personalised first outreach email
    → independent review score for every company, loaded into SQL and compared with the AI
-   → Power BI: lead pipeline and AI accuracy
+   → accuracy analysis in T-SQL
 ```
 
 ## Tools
 
-n8n (workflow orchestration) · Azure OpenAI (language model) · Azure SQL Database · T-SQL · SSMS · Power BI · Git
+n8n (workflow orchestration) · Azure OpenAI (language model) · Azure SQL Database · T-SQL · SSMS · Git
 
 ## Data
 
@@ -105,12 +105,6 @@ What worked: the deliberately misleading cases were handled correctly. Companies
 - Check the employee count against the 100–2,000 range before scoring.
 - Cost cutting or a spending freeze counts against the ability to buy, not as urgency.
 
-## Dashboard
-
-![Dashboard](dashboard/dashboard.png)
-
-Details in [`dashboard/README.md`](dashboard/README.md).
-
 ## Data protection
 
 The companies are fictional and only business information is used, no personal data. The drafts are for demonstration and were never sent; unsolicited marketing emails are restricted in Germany. Azure OpenAI runs within the project's own Azure subscription.
@@ -127,16 +121,9 @@ The companies are fictional and only business information is used, no personal d
 │   ├── 02_create_views.sql
 │   ├── 03_review_and_analysis.sql
 │   └── 04_import_human_review.sql
-├── workflow/
-│   ├── prompts.md
-│   └── lead_qualification_workflow.json
-├── dashboard/
-│   ├── README.md
-│   ├── lead_pipeline.pbix
-│   ├── lead_pipeline.pdf
-│   └── dashboard.png
-└── docs/
-    └── summary.pdf
+└── workflow/
+    ├── prompts.md
+    └── lead_qualification_workflow.json
 ```
 
 ## How to run
@@ -147,7 +134,6 @@ The companies are fictional and only business information is used, no personal d
 4. Import `workflow/lead_qualification_workflow.json` into n8n, add your own Microsoft SQL and Azure OpenAI credentials, and execute.
 5. Import `data/human_review.csv` as `dbo.human_review` and run `sql/04_import_human_review.sql`.
 6. Run `sql/03_review_and_analysis.sql` for the accuracy analysis.
-7. Open the Power BI file and refresh.
 
 ## Author
 
